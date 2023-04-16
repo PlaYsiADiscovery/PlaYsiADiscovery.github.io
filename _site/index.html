@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="./assets/css/styles.css">
+	<link rel="stylesheet" href="./assets/css/discordInvite.css">
+    <title>Setup Freelancer for (AUS Non-RP) PlaYsiA's Discovery</title>
+  </head>
+  <body>
+  <!-- Navigation -->
+	<ul>
+		<li><a class="active" href="#top">Top</a></li>
+		<li><a href="#step1"><b>Step 1 - </b>Prepare Windows</a></li>
+		<li><a href="#step1_1">1.1 Install .NET Framework</a></li>
+		<li><a href="#step1_2">1.2 Enable .NET Framework 3.5 and DirectPlay</a></li>
+		<li><a href="#step2"><b>Step 2 - </b>Install Freelancer + Mod</a></li>
+		<li><a href="#step2_1">2.1 Install Freelancer</a></li>
+		<li><a href="#step2_2">2.2 Install the Discovery Mod</a></li>
+		<li><a href="#step2_3">2.3 Update the Discovery Mod</a></li>
+		<li><a href="#step3"><b>Step 3 - </b>Edit Freelancer</a></li>
+		<li><a href="#step3_1">3.1 Enable the Freelancer Public Gamelist Server</a></li>
+		<li><a href="#step3_2">3.2 Install the PlaYsiA Discovery Launcher</a></li>
+		<li><a href="#step4"><b>Step 4 - </b>Play Freelancer</a></li>
+		<li><a href="#step4_1">4.1 Run the game and connect</a></li>
+		<li><a href="#discordinvite"><b>Join us on Discord!</b></a></li>
+		<li><a href="#flrules"><b>In-Game Rules</b></a></li>
+	</ul>
+	<div style="margin-left:15%;padding:1px 16px;height:1000px;">
+		<a id="top"><h1>How to setup Freelancer for PlaYsiA's Discovery Server</h1></a>
+		<p>Appears in game as: <i>(AUS Non-RP) PlaYsiA's Discovery</i></p>
+		<br />
+		<a id="step1"><h2>Step 1 - Prepare Windows</h2></a>
+		<a id="step1_1"><h3>1.1 Install .NET Framework</h3></a>
+		<section  id="step1_1">
+  <p>Download &amp; install the <a href="https://www.microsoft.com/net/download/framework">latest version of the .NET Framework</a>.</p>
+
+</section>
+
+		
+		<a id="step1_1"><h3>1.2 Enable .NET Framework 3.5 and DirectPlay</h3></a>
+		<section  id="step1_2">
+  <p>Enable .NET Framework 3.5 &amp; DirectPlay by doing the following:</p>
+<ol>
+  <li>Right click your <strong>Start Menu</strong> icon</li>
+  <li>Select <strong>Settings</strong></li>
+  <li>Select <strong>Apps</strong></li>
+  <li>From the right, select <strong>Programs and Features</strong></li>
+  <li>In the new window on the left, select <strong>Turn Windows features on or off</strong></li>
+  <li>Enable <strong>.NET Framework 3.5 (includes .NET 2.0 and 3.0)</strong> &amp; under <strong>Legacy Components</strong>, enable <strong>DirectPlay</strong></li>
+  <li>Click on OK to apply</li>
+</ol>
+
+<p><img src="./assets/images/instructions1.PNG" alt="DirectPlay" /></p>
+
+</section>
+
+		
+		<br />
+		<br />
+		<a id="step2"><h2>Step 2 - Install Freelancer</h2></a>
+	
+		<a id="step2_1"><h3>2.1 Install Freelancer</h3></a>
+		<section  id="step2_1">
+  <p>Installing the base game of Freelancer is straight-forward. 
+<a href="https://archive.org/download/Freelancer_201807/Freelancer.iso">Obtain the iso</a>.
+Note: <em>Install as administrator</em> to your desired location (standard click next to install)</p>
+
+</section>
+
+		<br />
+		<a id="step2_2"><h3>2.2 Install the Discovery Mod</h3></a>
+		<section  id="step2_2">
+  <p>Install the Discovery Mod
+First, <a href="https://www.moddb.com/mods/discovery-freelancer/downloads/discovery-493-horizons">Download the mod</a> and install as <em>administrator</em>. Then:</p>
+<ol>
+  <li>Browse to your Freelancer folder when it asks for the Freelancer Installation Folder, click Next</li>
+  <li>Personal Opinion: Leave Bloom Effect off, click Next</li>
+  <li>Select a location for the Freelancer Discovery install, <em>take note of this location</em>. Click Next and then Install</li>
+</ol>
+
+</section>
+
+		<br />
+		<a id="step2_3"><h3>2.3 Update the Discovery Mod</h3></a>
+		<section  id="step2_3">
+  <p>Updating the Discovery Mod is easy, it’s just hard to find if you installed to the default directory.
+By default, your Discovery Freelancer install will be in C:\Users\YOUR_USERNAME\AppData\Local\Discovery Freelancer 4.91.0</p>
+<ol>
+  <li>Find your <em>Discovery</em> Freelancer installation
+1.1 Place “%localappdata%\Discovery Freelancer 4.91.0” without the quotes into explorer if you installed to the default location</li>
+  <li>Make a shortcut to DSLauncher.exe to your desktop or wherever you place your game shortcuts</li>
+  <li>Run DSLauncher.exe through the shortcut you just made
+3.1 If it complains about accounts ignore it for now</li>
+  <li>Patch the launcher when prompted (or select from the right)</li>
+  <li>Patch the game when prompted (or select from the right)</li>
+  <li>Close the DSLauncher</li>
+</ol>
+
+</section>
+
+		
+		<br />
+		<br />
+		<a id="step3"><h2>Step 3 - Edit Freelancer</h2></a>
+		<a id="step3_1"><h3>3.1 Enable the Freelancer Public Gamelist Server</h3></a>
+		<section  id="step3_1">
+  <p>In the default discovery, the Freelancer Public Gamelist Server is disabled, meaning that we can’t see the server yet. Why did they do that? Don’t ask me…</p>
+<ol>
+  <li>Browse to your Discovery Freelancer install (where you were in step 2.3)</li>
+  <li>Go into the EXE directory</li>
+  <li>Edit Freelancer.ini with Notepad. <em>Troubleshooting step:</em> If it is read only, you will have to unset it, right click the file &gt; properties &gt; uncheck Read-only &gt; OK</li>
+  <li>Scroll down or otherwise find the section that begins with [ListServer]</li>
+  <li>Remove the ; from the line with hostname, it should look like <em>hostname = http://gun.fllistserver.com/</em></li>
+  <li>Save the file</li>
+</ol>
+
+<p><img src="./assets/images/UnCommentOut.PNG" alt="Editing the Freelancer.ini file" /></p>
+
+</section>
+
+		<br />
+		<a id="step3_2"><h3>3.2 Install the PlaYsiA Discovery Launcher</h3></a>
+		<section  id="step3_2">
+  <p>This step is <em>technically optional</em>. The default discovery launcher can get in the way by forcing the client to first find the official server. Don’t ask me why.
+<a href="https://github.com/brac3r/PlaYsiADiscoLauncher/releases">Grab the latest release</a></p>
+<ol>
+  <li>Backup your launcherconfig.xml in your Freelancer Discovery folder, (ie: C:\Users\PlaYsiA\AppData\Local\Discovery Freelancer 4.91.0)</li>
+  <li>Unzip to to your Freelancer Discovery folder</li>
+  <li>(If the server IP ever changes or you want to direct connect to a different server, then just edit ServerIP.txt. The latest Server IP is pinned in the Launcher discord channel whenever I notice it changes)</li>
+  <li>Make a shortcut to the new DSLauncherV2.exe</li>
+  <li>Run the new DSLauncher</li>
+</ol>
+
+</section>
+
+		
+		<br />
+		<br />
+		<a id="step4"><h2>Step 4 - Play Freelancer</h2></a>
+		<a id="step4_1"><h3>4.1 Run the game and connect</h3></a>
+		<section  id="step4_1">
+  <p>Now it’s as simple as finding the server and joining!</p>
+<ol>
+  <li>Run your chosen DSLauncher shortcut</li>
+  <li>Click Launch Game (to the top right)</li>
+  <li>In Freelancer go to Multiplayer, select Internet (If this is your first time running Freelancer on your PC, it will say something about an account ID, click yes or ok or whatever and continue on)</li>
+  <li>Select (AUS Non-RP) PlaYsiA’s Discovery, double click or click on Connect</li>
+  <li>Make your character and play (no offensive names please)</li>
+</ol>
+
+<p><img src="./assets/images/InFL.png" alt="Editing the Freelancer.ini file" /></p>
+
+</section>
+
+		
+		<br />
+		<br />
+		<a id="discordinvite"><h3>Discord Invite</h3></a>
+		<section  id="discordinvite">
+  <p>It is <em>highly</em> recommended that you join our discord to keep up to date on new developments, such as events!</p>
+
+</section>
+
+		<p><script src="./assets/js/discordInvite.js"></script>
+		<script>
+			discordInvite.init({
+			inviteCode: 'QDnpwk2vvA',
+			title: 'PlaYsiA Discovery Server Discord',
+			});
+			discordInvite.render();
+		</script>
+		<div id="discordInviteBox"></div></p>
+		
+		<br />
+		<br />
+		<a id="flrules"><h3>In-Game Rules</h3></a>
+		<section  id="flrules">
+  <p>We aim to have as few rules as possible, but there does need to be some:</p>
+<ol>
+  <li>Don’t use F1 or disconnect when interacting with other players.</li>
+  <li>Don’t grief people</li>
+  <li>No Camera Ship without prior permission. (Nomad restart starts with a camera ship, you need to get out of it ASAP).</li>
+  <li>No inappropriate names, ie: slurs. I’m disappointed I even had to make this clear.</li>
+  <li>Have fun</li>
+</ol>
+
+<p>Griefing sub-rules/clarifications.</p>
+<ol>
+  <li>You need to interact in system chat at 4km+ distance with someone before firing. ie: “It’s time for you to die Playsia” or “1 million credits to live Playsia”</li>
+  <li>No ambushing people as they undock or jump into a system.</li>
+  <li>Player Bases and their Defence Platforms: Cannot be placed within firing range of jumpholes/jumpgates.</li>
+</ol>
+
+</section>
+
+		
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<p>If you really want to, you can see the source <a href=https://github.com/PlaYsiADiscovery/PlaYsiADiscovery.github.io>here</a></p>
+	</div>
+  </body>
+</html>
+
