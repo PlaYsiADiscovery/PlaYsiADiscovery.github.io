@@ -52,3 +52,7 @@ a:link {
 a:visited {
   color: #58a6ff;
 }
+
+.bottomtext {
+	margin-top: 50%;
+}
