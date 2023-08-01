@@ -10,7 +10,7 @@ body {
 	font-family: Agency FB;
 }
 
-ul.installation {
+ul.install {
 	color: #eee;
 	list-style-type: none;
 	margin: 0;
@@ -23,7 +23,7 @@ ul.installation {
 	border: 1px solid #555;
 }
 
-li.installation a {
+li.install a {
 	display: block;
 	color: #eee;
 	padding: 8px 16px;
@@ -31,15 +31,15 @@ li.installation a {
 	border-bottom: 1px solid #555;
 }
 			
-li.installation:last-child {
+li.install:last-child {
 	border-bottom: none;
 }
 
-li.installation a.active {
+li.install a.active {
 	background-color: #282828;
 }
 
-li.installation a:hover:not(.active) {
+li.install a:hover:not(.active) {
 	background-color: #555;
 }
 
