@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: FAQ for (AUS Non-RP) PlaYsiA's Discovery
 ---
 <!doctype html>
 <html>
@@ -14,7 +14,45 @@ title: FAQ
   <body>
 	{% include navbar.html %}
 	
-		Content goes here
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<ul class="install">
+					<li class="install"><a class="active" href="#top">Top</a></li>
+					<li class="install"><a href="#step1">Autobuy</a></li>
+					<li class="install"><a href="#discordinvite"><b>Join us on Discord!</b></a></li>
+					<li class="install"><a href="#flrules"><b>In-Game Rules</b></a></li>
+				</ul>
+			</div>
+
+			<div class="col" style="margin-left:16%;padding:1px 16px;">
+				<a id="top"><h1>Frequently Asked Questions</h1></a>
+				<br />
+				<a id="step1"><h2>Autobuy</h2></a>
+				
+				<br />
+				<br />
+				<a id="discordinvite"><h3>Discord Invite</h3></a>
+				{% include markdown.html path="_markdown/discord.md" selector="section" id="discordinvite" %}
+				<p><script src="./assets/js/discordInvite.js"></script>
+				<script>
+					discordInvite.init({
+					inviteCode: 'QDnpwk2vvA',
+					title: 'PlaYsiA Discovery Server Discord',
+					});
+					discordInvite.render();
+				</script>
+				<div id="discordInviteBox"></div></p>
+				
+				<br />
+				<br />
+				<a id="flrules"><h3>In-Game Rules</h3></a>
+				{% include markdown.html path="_markdown/rules.md" selector="section" id="flrules" %}
+				<p class="bottomtext">If you really want to, you can see the source <a href=https://github.com/PlaYsiADiscovery/PlaYsiADiscovery.github.io>here</a>
+				<br />Big thankyou to <a href=https://github.com/SynthSy>SynthSy</a> for the design.</p>
+			</div>
+		</div>
+	</div>
 
 	{% include footer.html %}
   </body>
