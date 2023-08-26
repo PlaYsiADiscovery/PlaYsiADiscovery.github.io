@@ -1,0 +1,2 @@
+I have tried to disable all all of the ID restrictions, but in some cases you may have to buy the ID that matches the faction of your ship.
+**ie: ** If you buy a ***Liberty Navy Fighter*** (Defender), if you have power/equipment problems you might need the ***Liberty Navy ID***.
