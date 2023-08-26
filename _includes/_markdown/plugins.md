@@ -25,5 +25,5 @@ Also keeps track of damage taken between players, prints greatest damage contrib
 
 **tax:**
 The Tax plugin allows players to issue 'formally' make credit demands and declare hostilities.
-- /tax <credits>
-- /tax
+- /tax {credits} : makes demand for amount of credits you specify
+- /tax : just declares hostilities
