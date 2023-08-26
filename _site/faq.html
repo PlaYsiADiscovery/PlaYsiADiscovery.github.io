@@ -18,7 +18,7 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="index.html">Setup</a>
+					<a class="nav-link" href="index.html">Setup</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="faq.html">FAQ</a>
@@ -33,19 +33,22 @@
 	
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col">
+			<div class="col-2">
 				<ul class="install">
 					<li class="install"><a class="active" href="#top">Top</a></li>
 					<li class="install"><a href="#autobuy">Autobuy</a></li>
 					<li class="install"><a href="#discotutes">Useful Discovery Tutorials</a></li>
 					<li class="install"><a href="#pbupgrade">Player Base Upgrade Costs</a></li>
 					<li class="install"><a href="#restarts">Available Restarts</a></li>
+					<li class="install"><a href="#idpower">ID Power</a></li>
+					<li class="install"><a href="#plugins">Plugins</a></li>
+					<li class="install"><a href="#mining">Mining</a></li>
 					<li class="install"><a href="#discordinvite"><b>Join us on Discord!</b></a></li>
 					<li class="install"><a href="#flrules"><b>In-Game Rules</b></a></li>
 				</ul>
 			</div>
 
-			<div class="col" style="margin-left:16%;padding:1px 16px;">
+			<div class="col" style="padding:1px 16px;">
 				<a id="top"><h1>Frequently Asked Questions</h1></a>
 				<br />
 				
@@ -146,6 +149,71 @@ You can display a list of restarts with the “/showrestarts” command.</p>
 				<br />
 				<br />
 				
+				<a id="idpower"><h2>ID Power</h2></a>
+				<section  id="idpower">
+  <p>I have tried to disable all all of the ID restrictions, but in some cases you may have to buy the ID that matches the faction of your ship.
+<strong>ie: ** If you buy a **<em>Liberty Navy Fighter</em></strong> (Defender), if you have power/equipment problems you might need the <strong><em>Liberty Navy ID</em></strong>.</p>
+
+</section>
+
+				<br />
+				<br />
+				
+				<a id="plugins"><h2>What are the new Plugins?</h2></a>
+				<section  id="plugins">
+  <p><strong>afk:</strong>
+/afk and /back chat commands, pretty self explantory</p>
+
+<p><strong>betting:</strong>
+a pvp tool</p>
+<ul>
+  <li>/acceptduel - Accepts the current duel request.</li>
+  <li>/acceptffa - Accept the current ffa request.</li>
+  <li>/cancel - Cancel the current duel/ffa request.</li>
+  <li>/duel <amount> - Create a duel request to the targeted player. Winner gets the pot.</amount></li>
+  <li>/ffa <amount> - Create an ffa and send an invite to everyone in the system. Winner gets the pot.</amount></li>
+</ul>
+
+<p><strong>bountyhunt:</strong>
+The “Bounty Hunt” plugin allows players to put bounties on each other that can be collected by destroying that player.</p>
+<ul>
+  <li>/bountyhunt <player> <amount> [timelimit] - Places a bounty on the specified player. When another player kills them, they gain <credits>.</credits></amount></player></li>
+  <li>/bountyhuntid <id> <amount> [timelimit] - Same as above but with an id instead of a player name. Use /ids to see IDs</amount></id></li>
+</ul>
+
+<p><strong>deathpenalty:</strong>
+currently disabled
+This plugin charges players credits for dying based on their ship worth. If the killer was a player it also rewards them.</p>
+
+<p><strong>kill_tracker:</strong>
+This plugin is used to count pvp kills and save them in the player file.
+Also keeps track of damage taken between players, prints greatest damage contributor.</p>
+<ul>
+  <li>/kills {client} - Shows the pvp kills for a player if a client id is specified, or if not, the player who typed it.</li>
+</ul>
+
+<p><strong>tax:</strong>
+The Tax plugin allows players to issue ‘formally’ make credit demands and declare hostilities.</p>
+<ul>
+  <li>/tax <credits></credits></li>
+  <li>/tax</li>
+</ul>
+
+</section>
+
+				<br />
+				<br />
+				
+				<a id="mining"><h2>Mining</h2></a>
+				<section  id="mining">
+  <p>Works in Dublin and a few other places but is mostly broken for now.
+Mining is semi-broken until I get the latest configuration files from Discovery. The released files are 6 years old.</p>
+
+</section>
+
+				<br />
+				<br />
+				
 				<a id="discordinvite"><h3>Discord Invite</h3></a>
 				<section  id="discordinvite">
   <p>It is <em>highly</em> recommended that you join our discord to keep up to date on new developments, such as events!</p>
@@ -194,3 +262,4 @@ You can display a list of restarts with the “/showrestarts” command.</p>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
+</html>
