@@ -1,0 +1,61 @@
+---
+title: Donation Info for PlaYsiA's Discovery
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link rel="stylesheet" href="./assets/css/styles.css">
+	<link rel="stylesheet" href="./assets/css/discordInvite.css">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+	{% include navbar.html %}
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-2">
+				<ul class="install">
+					<li class="install"><a class="active" href="#top">Top</a></li>
+					<li class="install"><a href="#whydonate">Why have Donations?</a></li>
+					<li class="install"><a href="#donationincentives">Donation Incentives</a></li>
+					<li class="install"><a href="#donationships">Donation Ships</a></li>
+					<li class="install"><a href="#howdonate">How To Donate</a></li>
+				</ul>
+			</div>
+
+			<div class="col" style="padding:1px 16px;">
+				<a id="top"><h1>Donation Information</h1></a>
+				<br />
+				
+				<a id="whydonate"><h2>Why do you have Donations?</h2></a>
+				{% include markdown.html path="_markdown/whydonate.md" selector="section" id="whydonate" %}
+				<br />
+				<br />
+				
+				<a id="donationincentives"><h2>Donation Incentives</h2></a>
+				{% include markdown.html path="_markdown/donationincentives.md" selector="section" id="donationincentives" %}
+				<br />
+				<br />
+				
+				<a id="donationships"><h2>Where are the Donation Ships?</h2></a>
+				{% include markdown.html path="_markdown/donationships.md" selector="section" id="donationships" %}
+				<br />
+				<br />
+				
+				<a id="howdonate"><h2>How to Donate</h2></a>
+				{% include markdown.html path="_markdown/howdonate.md" selector="section" id="howdonate" %}
+				<br />
+				<br />				
+				
+				<p class="bottomtext">If you really want to, you can see the source <a href=https://github.com/PlaYsiADiscovery/PlaYsiADiscovery.github.io>here</a>
+				<br />Big thankyou to <a href=https://github.com/SynthSy>SynthSy</a> for the design.</p>
+			</div>
+		</div>
+	</div>
+
+	{% include footer.html %}
+  </body>
+</html>

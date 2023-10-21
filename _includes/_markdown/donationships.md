@@ -1,0 +1,1 @@
+The patch is now out, we still need to test the "premium" ships to make sure they are not OP before making them available.
